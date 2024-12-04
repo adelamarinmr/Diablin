@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,14 +6,46 @@ using UnityEngine;
 public class NPC : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+
+    private Outline outline;
+
+    [SerializeField] private Texture2D cursorNPC;
+    [SerializeField] private Texture2D cursorPorDefecto;
+
+    [SerializeField] private float tiempoRotacion;
+
+    // Start is called before the first frame update
+
+    private void Awake()
     {
-        
+        outline = GetComponent<Outline>();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void Interactuar(Transform interactuador)
     {
-        
+
+        Debug.Log("Hola");
+        transform.DOLookAt(interactuador.position, tiempoRotacion, AxisConstraint.Y);
+
+    }
+
+
+
+
+
+
+
+    private void OnMouseEnter()
+    {
+        Cursor.SetCursor(cursorNPC, new Vector2(0, 0), CursorMode.Auto);
+        outline.enabled = true;
+    }
+
+    private void OnMouseExit()
+    {
+        Cursor.SetCursor(cursorPorDefecto, new Vector2(0, 0), CursorMode.Auto);
+
+        outline.enabled = false;
     }
 }
