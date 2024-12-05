@@ -25,8 +25,9 @@ public class NPC : MonoBehaviour
     public void Interactuar(Transform interactuador)
     {
 
-        Debug.Log("Hola");
         transform.DOLookAt(interactuador.position, tiempoRotacion);
+
+        SistemaDialogo.sistema.IniciarDialogo();
 
     }
 
@@ -38,14 +39,15 @@ public class NPC : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        //Cursor.SetCursor(cursorNPC, new Vector2(0, 0), CursorMode.Auto);
+       Cursor.SetCursor(cursorNPC, new Vector2(0, 0), CursorMode.Auto);
+       
         outline.enabled = true;
     }
 
     private void OnMouseExit()
     {
-       // Cursor.SetCursor(cursorPorDefecto, new Vector2(0, 0), CursorMode.Auto);
+       Cursor.SetCursor(cursorPorDefecto, new Vector2(0, 0), CursorMode.Auto);
 
-        outline.enabled = false;
+       outline.enabled = false;
     }
 }
