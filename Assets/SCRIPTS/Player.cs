@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     private NavMeshAgent agent;
     private Camera cam;
 
-    private NPC npcActual;//guardo la info del npc actual con el que quiero hablar
+    private Transform ultimoClick;//guardo la info del npc actual con el que quiero hablar
 
     [SerializeField] private float distanciaInteraccion;
 
@@ -22,20 +22,30 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movimiento();
+        if(Time.timeScale==1)
+        {
+            Movimiento();
+        }
+        
 
         //si existe un npc al cual clické
-        if(npcActual)
+        if (ultimoClick && ultimoClick.TryGetComponent(out NPC npc))
         {
+            agent.stoppingDistance = distanciaInteraccion;
+
             //Comprobar si he llegado al npc
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             {
-                npcActual.Interactuar(this.transform);
-
-                npcActual = null;
-                agent.isStopped = true;
-                agent.stoppingDistance = 0;
+                npc.Interactuar(this.transform);
+                ultimoClick = null;
             }
+        }
+
+        else if (ultimoClick)
+        {
+
+            agent.stoppingDistance = 0f;
+
         }
         
     }
@@ -52,15 +62,12 @@ public class Player : MonoBehaviour
             {
                 //mirar si el pto de inpacto tiene el script npc
 
-                if (hit.transform.TryGetComponent(out NPC npc))
-                {
-                    //y en ese caso ese es el npc es el actual
-                    npcActual = npc;
-
-                    // ahora mi distancia de parada es la de interaccion ( pararse a X metros del NPC)
-                    agent.stoppingDistance = distanciaInteraccion;
-                }
+               
                 agent.SetDestination(hit.point); //directo al punto del impacto
+
+
+                ultimoClick=hit.transform;
+
             }
         }
     }

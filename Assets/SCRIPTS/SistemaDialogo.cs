@@ -40,6 +40,8 @@ public class SistemaDialogo : MonoBehaviour
 
     public void IniciarDialogo(DialogoSO dialogo)
     {
+        Time.timeScale = 0f; //pausamos el juego
+
         dialogoActual= dialogo;
         marcos.SetActive(true);
         StartCoroutine(EscribirFrase());
@@ -57,7 +59,7 @@ public class SistemaDialogo : MonoBehaviour
         foreach (char letra in fraseEnLetras)
         {
             textoDialogo.text += letra;
-            yield return new WaitForSeconds(dialogoActual.tiempoEntreLetras);
+            yield return new WaitForSecondsRealtime(dialogoActual.tiempoEntreLetras);
         }
 
         escribiendo = false;
@@ -103,5 +105,7 @@ public class SistemaDialogo : MonoBehaviour
         IndiceFraseActual = 0;//para posteriores dialogos
         escribiendo=false;
         dialogoActual = null;//ya no tenemos ningun dialogo a no ser que me vuelvan a clickar
+
+        Time.timeScale = 1f; //volvemos al tiempo original
     }
 }
