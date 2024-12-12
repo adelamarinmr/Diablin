@@ -11,7 +11,7 @@ public class PlayerVisual : MonoBehaviour
 
 
 
-    private void Aake()
+    private void Awake()
     {
         //Ref a mi animator
         anim = GetComponent<Animator>();

@@ -17,6 +17,8 @@ public class SistemaDialogo : MonoBehaviour
 
     private DialogoSO dialogoActual; // para almacenar con q dialogo estamos trabajando
 
+    [SerializeField] private Transform npcCamera;
+
 
     private void Awake()
     {
@@ -38,9 +40,12 @@ public class SistemaDialogo : MonoBehaviour
         }
     }
 
-    public void IniciarDialogo(DialogoSO dialogo)
+    public void IniciarDialogo(DialogoSO dialogo, Transform cameraPoint)
     {
         Time.timeScale = 0f; //pausamos el juego
+
+        npcCamera.SetPositionAndRotation(cameraPoint.position, cameraPoint.rotation);
+        
 
         dialogoActual= dialogo;
         marcos.SetActive(true);

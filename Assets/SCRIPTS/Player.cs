@@ -1,5 +1,7 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,6 +13,7 @@ public class Player : MonoBehaviour
     private Transform ultimoClick;//guardo la info del npc actual con el que quiero hablar
 
     [SerializeField] private float distanciaInteraccion;
+    [SerializeField] private float tiempoRotacion;
 
     // Start is called before the first frame update
     void Start()
@@ -35,12 +38,14 @@ public class Player : MonoBehaviour
 
             //Comprobar si he llegado al npc
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
-            {
-                npc.Interactuar(this.transform);
-                ultimoClick = null;
+            { 
+                
+                LanzarInteraccion(npc); 
+
             }
         }
 
+       
         else if (ultimoClick)
         {
 
@@ -50,6 +55,11 @@ public class Player : MonoBehaviour
         
     }
 
+    private void LanzarInteraccion(NPC npc)
+    {
+        npc.Interactuar(this.transform);
+        ultimoClick = null;
+    }
 
     private void Movimiento()
     {
