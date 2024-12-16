@@ -20388,7 +20388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marcos: {fileID: 1628159024}
   textoDialogo: {fileID: 1203733335}
-  npcCamera: {fileID: 0}
+  npcCamera: {fileID: 547824549}
 --- !u!1001 &1803176363
 PrefabInstance:
   m_ObjectHideFlags: 0
