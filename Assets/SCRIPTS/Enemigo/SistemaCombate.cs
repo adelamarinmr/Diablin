@@ -7,16 +7,25 @@ public class SistemaCombate : MonoBehaviour
 {
     [SerializeField] private Enemigo main;
     [SerializeField] private float velocidadCombate;
+    [SerializeField] private float distanciaAtaque;
     [SerializeField] private NavMeshAgent agent;
 
 
 
-    // Start is called before the first frame update
+    // awake vs OnEnabled vs Start VIP TEST
     void Awake()
     {
         main.Combate = this;
         
-    } 
+    }
+
+    private void OnEnable()
+    {
+        agent.speed = velocidadCombate;
+        agent.stoppingDistance = distanciaAtaque;
+    }
+
+
 
     void Start()
     {
