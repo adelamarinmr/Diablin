@@ -7,8 +7,9 @@ public class SistemaCombate : MonoBehaviour
 {
     [SerializeField] private Enemigo main;
     [SerializeField] private float velocidadCombate;
-    [SerializeField] private float distanciaAtaque;
+    [SerializeField] private float distanciaCombate;
     [SerializeField] private NavMeshAgent agent;
+    [SerializeField] private Animator anim;
 
 
 
@@ -22,7 +23,7 @@ public class SistemaCombate : MonoBehaviour
     private void OnEnable()
     {
         agent.speed = velocidadCombate;
-        agent.stoppingDistance = distanciaAtaque;
+        agent.stoppingDistance = distanciaCombate;
     }
 
 
@@ -35,7 +36,29 @@ public class SistemaCombate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      agent.speed=velocidadCombate;
-      agent.SetDestination(main.MainTarget.position);
+      if (main.MainTarget != null && agent.CalculatePath(main.MainTarget.position, new NavMeshPath()))  
+      {
+            //EnfocarObjetivo();
+            agent.SetDestination(main.MainTarget.position);
+
+           if (agent.remainingDistance <= distanciaCombate) 
+           {
+
+                anim.SetBool("attacking", true);
+           }
+
+           else
+           {
+                //main.ActivarPatrulla();
+           }
+      }
     }
+
+    #region Ejecutsods por eventos de anim
+
+
+
+
+    #endregion
+
 }
