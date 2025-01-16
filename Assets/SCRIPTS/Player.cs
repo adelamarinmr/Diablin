@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         
 
         //si existe un npc al cual clické
-        if (ultimoClick && ultimoClick.TryGetComponent(out NPC npc))
+        if (ultimoClick && ultimoClick.TryGetComponent(out IInteractuable interactuable))
         {
             agent.stoppingDistance = distanciaInteraccion;
 
@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             { 
                 
-                LanzarInteraccion(npc); 
+                LanzarInteraccion(interactuable); 
 
             }
         }
@@ -55,9 +55,9 @@ public class Player : MonoBehaviour
         
     }
 
-    private void LanzarInteraccion(NPC npc)
+    private void LanzarInteraccion(IInteractuable interactuable)
     {
-        npc.Interactuar(this.transform);
+        interactuable.Interactuar(transform);
         ultimoClick = null;
     }
 
