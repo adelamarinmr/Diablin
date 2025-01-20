@@ -373,7 +373,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -432,6 +432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -452,7 +457,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -511,6 +516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -562,7 +572,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -618,6 +628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -1297,7 +1312,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -1353,6 +1368,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -1840,7 +1860,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -1896,6 +1916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -2183,7 +2208,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -2239,6 +2264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -2438,7 +2468,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -2494,6 +2524,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -2596,7 +2631,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -2652,6 +2687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -3258,7 +3298,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -3314,6 +3354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -3416,7 +3461,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -3472,6 +3517,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -3754,147 +3804,100 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1351698512}
-  - {fileID: 690259947}
   - {fileID: 1648779205}
-  - {fileID: 1698602778}
   - {fileID: 406597144}
   - {fileID: 1182901532}
   - {fileID: 681962330}
-  - {fileID: 1452633413}
   - {fileID: 1256362029}
-  - {fileID: 1862281544}
   - {fileID: 798632590}
-  - {fileID: 173201212}
   - {fileID: 1155281785}
   - {fileID: 796783846}
-  - {fileID: 908229102}
   - {fileID: 1923583221}
   - {fileID: 84789483}
-  - {fileID: 1273644418}
   - {fileID: 1355973240}
   - {fileID: 1922087351}
-  - {fileID: 1300260140}
   - {fileID: 5467667}
   - {fileID: 1976231239}
-  - {fileID: 1966686936}
   - {fileID: 1891087671}
   - {fileID: 1931532693}
-  - {fileID: 94415485}
   - {fileID: 1541134854}
   - {fileID: 673543729}
-  - {fileID: 882396634}
   - {fileID: 1675083357}
   - {fileID: 535661590}
-  - {fileID: 163757175}
   - {fileID: 1386264329}
   - {fileID: 465366852}
-  - {fileID: 1790935236}
   - {fileID: 855451795}
   - {fileID: 1839504947}
-  - {fileID: 1345595592}
   - {fileID: 591357115}
   - {fileID: 11269546}
-  - {fileID: 228987251}
   - {fileID: 1023012923}
-  - {fileID: 906143393}
   - {fileID: 1219011867}
-  - {fileID: 1449975888}
   - {fileID: 2109663724}
   - {fileID: 1088931426}
-  - {fileID: 766934414}
   - {fileID: 1057132413}
   - {fileID: 1321102166}
-  - {fileID: 1059734233}
   - {fileID: 1354257363}
   - {fileID: 198135903}
-  - {fileID: 930665380}
   - {fileID: 1040858876}
   - {fileID: 748611148}
-  - {fileID: 1736146445}
   - {fileID: 863457673}
   - {fileID: 2120063865}
-  - {fileID: 1056881155}
   - {fileID: 1435511068}
   - {fileID: 1983347210}
-  - {fileID: 575423969}
   - {fileID: 1243882552}
-  - {fileID: 1175236878}
   - {fileID: 562996261}
-  - {fileID: 1896034428}
   - {fileID: 2037295427}
   - {fileID: 1397130365}
-  - {fileID: 1885607721}
   - {fileID: 2059291496}
   - {fileID: 1206758884}
-  - {fileID: 979582021}
   - {fileID: 1745640348}
   - {fileID: 1462589546}
-  - {fileID: 31425951}
   - {fileID: 2118491914}
   - {fileID: 799147921}
-  - {fileID: 480854438}
   - {fileID: 2132809920}
   - {fileID: 904694615}
-  - {fileID: 588387678}
   - {fileID: 646491203}
   - {fileID: 735849288}
-  - {fileID: 1404611100}
   - {fileID: 1200112365}
-  - {fileID: 180413238}
   - {fileID: 1998710701}
-  - {fileID: 637948995}
   - {fileID: 153654709}
   - {fileID: 124735084}
   - {fileID: 1019062656}
-  - {fileID: 1628029187}
   - {fileID: 1851523761}
   - {fileID: 899799307}
   - {fileID: 1707541970}
-  - {fileID: 1085926526}
   - {fileID: 834487142}
   - {fileID: 1657163270}
   - {fileID: 2026615298}
-  - {fileID: 1129731172}
   - {fileID: 1386230018}
   - {fileID: 1072999546}
   - {fileID: 434391105}
-  - {fileID: 35813567}
   - {fileID: 1767934758}
   - {fileID: 1706586581}
   - {fileID: 561468760}
-  - {fileID: 2106775393}
   - {fileID: 348328693}
   - {fileID: 1557334807}
-  - {fileID: 1037839522}
   - {fileID: 1451751396}
-  - {fileID: 34163235}
   - {fileID: 119328339}
-  - {fileID: 343931380}
   - {fileID: 2116378600}
   - {fileID: 544521368}
   - {fileID: 1864343020}
-  - {fileID: 1018876234}
   - {fileID: 80435351}
   - {fileID: 1252044952}
   - {fileID: 606006553}
-  - {fileID: 1934192647}
   - {fileID: 1145130130}
   - {fileID: 199008646}
   - {fileID: 177972085}
-  - {fileID: 786639765}
   - {fileID: 1784981186}
   - {fileID: 1848507752}
   - {fileID: 429369726}
-  - {fileID: 215548747}
   - {fileID: 907430761}
   - {fileID: 320637491}
   - {fileID: 2111635661}
-  - {fileID: 1164964684}
   - {fileID: 1267582038}
   - {fileID: 205279856}
-  - {fileID: 1036036444}
   - {fileID: 1732061742}
-  - {fileID: 125309389}
+  - {fileID: 1021918820}
   - {fileID: 327440702}
   - {fileID: 1302519994}
   - {fileID: 1825672833}
@@ -4328,7 +4331,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -4384,6 +4387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -5242,7 +5250,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -5298,6 +5306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -6410,7 +6423,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -6469,6 +6482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -6489,7 +6507,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -6545,6 +6563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -6917,37 +6940,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 607978474}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &608130556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 608130557}
-  m_Layer: 0
-  m_Name: SistemaCombate
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &608130557
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 608130556}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 870539745}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &617250441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7344680627790260920, guid: 509f14c839ce4ca448ceacea8fe2abe1,
@@ -6960,7 +6952,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -7016,6 +7008,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -7282,7 +7279,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -7338,6 +7335,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -7686,7 +7688,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -7742,6 +7744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -7838,7 +7845,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -7894,6 +7901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -9539,7 +9551,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 987497015}
-  - {fileID: 608130557}
   - {fileID: 379536013}
   - {fileID: 2636150322436187977}
   - {fileID: 1560054178}
@@ -9553,7 +9564,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870539741}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_Radius: 0.5
   m_Speed: 2
   m_Acceleration: 8
@@ -9606,7 +9617,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -9662,6 +9673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -10152,7 +10168,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -10208,6 +10224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -10310,7 +10331,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -10369,6 +10390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10395,7 +10421,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -10451,6 +10477,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11055,7 +11086,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11114,6 +11145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11139,7 +11175,6 @@ GameObject:
   - component: {fileID: 987497015}
   - component: {fileID: 987497016}
   - component: {fileID: 987497017}
-  - component: {fileID: 987497018}
   m_Layer: 0
   m_Name: SistemaPatrulla
   m_TagString: Untagged
@@ -11198,21 +11233,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 7
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &987497018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987497014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b887f5de060344cb78f40ef9202673, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  main: {fileID: 870539748}
-  ruta: {fileID: 379536013}
-  agent: {fileID: 870539747}
 --- !u!4 &1015183159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4429440872615467182, guid: 01d6e3a5cf704bb46ad67b1f988ba267,
@@ -11225,7 +11245,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11281,6 +11301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11377,6 +11402,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1019062655}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1021918819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1021918820}
+  m_Layer: 7
+  m_Name: ZonaCombate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1021918820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021918819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 690259947}
+  - {fileID: 1698602778}
+  - {fileID: 1452633413}
+  - {fileID: 1862281544}
+  - {fileID: 173201212}
+  - {fileID: 908229102}
+  - {fileID: 1273644418}
+  - {fileID: 1300260140}
+  - {fileID: 1966686936}
+  - {fileID: 94415485}
+  - {fileID: 882396634}
+  - {fileID: 163757175}
+  - {fileID: 1790935236}
+  - {fileID: 1345595592}
+  - {fileID: 228987251}
+  - {fileID: 906143393}
+  - {fileID: 1449975888}
+  - {fileID: 766934414}
+  - {fileID: 1059734233}
+  - {fileID: 930665380}
+  - {fileID: 1736146445}
+  - {fileID: 1056881155}
+  - {fileID: 575423969}
+  - {fileID: 1175236878}
+  - {fileID: 1896034428}
+  - {fileID: 1885607721}
+  - {fileID: 979582021}
+  - {fileID: 31425951}
+  - {fileID: 480854438}
+  - {fileID: 588387678}
+  - {fileID: 1404611100}
+  - {fileID: 180413238}
+  - {fileID: 637948995}
+  - {fileID: 1628029187}
+  - {fileID: 1085926526}
+  - {fileID: 1129731172}
+  - {fileID: 35813567}
+  - {fileID: 2106775393}
+  - {fileID: 1037839522}
+  - {fileID: 34163235}
+  - {fileID: 343931380}
+  - {fileID: 1018876234}
+  - {fileID: 1934192647}
+  - {fileID: 786639765}
+  - {fileID: 215548747}
+  - {fileID: 1164964684}
+  - {fileID: 1036036444}
+  - {fileID: 125309389}
+  m_Father: {fileID: 296623233}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1023012922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11541,7 +11645,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11600,6 +11704,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11620,7 +11729,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11676,6 +11785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11857,7 +11971,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -11913,6 +12027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -12015,7 +12134,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -12071,6 +12190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -12173,7 +12297,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -12229,6 +12353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -12966,7 +13095,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -13022,6 +13151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -13428,7 +13562,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -13487,6 +13621,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -13519,7 +13658,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -13575,6 +13714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -14608,7 +14752,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -14664,6 +14808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -14906,7 +15055,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -14962,6 +15111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -15614,7 +15768,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -15670,6 +15824,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -16277,7 +16436,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -16333,6 +16492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -16665,7 +16829,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -16721,6 +16885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -16902,7 +17071,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -16958,6 +17127,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -17064,6 +17238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1475641513}
   - component: {fileID: 1475641512}
+  - component: {fileID: 1475641514}
   m_Layer: 0
   m_Name: Escenario
   m_TagString: Untagged
@@ -17120,6 +17295,37 @@ Transform:
   - {fileID: 1687066734}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475641514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475641511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: -1372625422
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  m_UseGeometry: 0
+  m_DefaultArea: 3
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 55296fa61aab6824a837d7391c12fea7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1001 &1475676162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18533,7 +18739,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -18589,6 +18795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -19438,7 +19649,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -19494,6 +19705,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -19842,7 +20058,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -19898,6 +20114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -20705,7 +20926,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -20761,6 +20982,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -21869,7 +22095,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -21925,6 +22151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -22264,7 +22495,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -22320,6 +22551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -22422,7 +22658,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -22478,6 +22714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -22896,7 +23137,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -22952,6 +23193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -23054,7 +23300,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -23110,6 +23356,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -24411,7 +24662,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 296623233}
+    m_TransformParent: {fileID: 1021918820}
     m_Modifications:
     - target: {fileID: 6012237194354159631, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -24467,6 +24718,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Suelo (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331223167808865592, guid: 44b38a4a0bc0ae04e88bb463df035e1f,
         type: 3}
@@ -27445,7 +27701,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   main: {fileID: 870539748}
   velocidadCombate: 2.5
-  distanciaCombate: 0
+  distanciaCombate: 2
+  danhoCombate: 25
   agent: {fileID: 870539747}
   anim: {fileID: 0}
 --- !u!1 &3474442904074155825

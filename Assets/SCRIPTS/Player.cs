@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -80,6 +81,11 @@ public class Player : MonoBehaviour
 
             }
         }
+    }
+
+    public void HacerDanho(float danhoCombate)
+    {
+        Debug.Log("Auch!");
     }
 }
 
