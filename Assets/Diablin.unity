@@ -19779,6 +19779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC_Nightmare_Mushroom
       objectReference: {fileID: 0}
+    - target: {fileID: 7948832715747948136, guid: ce055cfa837ead84e928a795f1751502,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 181f7c776b2ba3040a138255de7c2ebb, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
