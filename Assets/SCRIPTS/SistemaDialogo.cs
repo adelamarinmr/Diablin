@@ -19,6 +19,9 @@ public class SistemaDialogo : MonoBehaviour
 
     [SerializeField] private Transform npcCamera;
 
+    [SerializeField]
+    private EventManagerSO eventManager;
+
 
     private void Awake()
     {
@@ -105,12 +108,22 @@ public class SistemaDialogo : MonoBehaviour
 
     private void TerminarDialogo() // q el texto aparezca letra x letra
     {
+        Time.timeScale = 1f; //volvemos al tiempo original
         marcos.SetActive(false);
         StopAllCoroutines();
         IndiceFraseActual = 0;//para posteriores dialogos
         escribiendo=false;
+
+        if (dialogoActual.tieneMision)
+        {
+            eventManager.NuevaMision();
+        }
+
         dialogoActual = null;//ya no tenemos ningun dialogo a no ser que me vuelvan a clickar
 
-        Time.timeScale = 1f; //volvemos al tiempo original
+      
+
+
+
     }
 }
