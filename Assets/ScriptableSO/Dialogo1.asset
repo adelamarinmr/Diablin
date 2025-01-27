@@ -15,7 +15,7 @@ MonoBehaviour:
   frases:
   - Hola loca, mi awela ta mala y solo puede tomar medicina infernal...
   - necesito tres setas de la muerte
-  - "traemelas o tu mueres aqu\xED"
+  - "traemelas o mueres aqu\xED"
   tiempoEntreLetras: 0.02
   tieneMision: 1
-  textoMision: Go for deadly mushrooms 0/3
+  mision: {fileID: 11400000, guid: 70e26a6fbb904ac4385de452def7180b, type: 2}

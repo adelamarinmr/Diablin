@@ -116,7 +116,8 @@ public class SistemaDialogo : MonoBehaviour
 
         if (dialogoActual.tieneMision)
         {
-            eventManager.NuevaMision();
+            //Comunico al event manager que hay una mision en este dialogo
+            eventManager.NuevaMision(dialogoActual.mision);
         }
 
         dialogoActual = null;//ya no tenemos ningun dialogo a no ser que me vuelvan a clickar

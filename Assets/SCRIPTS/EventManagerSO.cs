@@ -7,10 +7,24 @@ using UnityEngine;
 public class EventManagerSO : ScriptableObject
 {
 
-    public event Action OnNuevaMision;  //EVENTO
-    public void NuevaMision()
+    public event Action<MisionSO> OnNuevaMision;  //EVENTO
+
+    public event Action<MisionSO> OnActualizarMision;
+    public event Action<MisionSO> OnTerminarMision;
+    public void NuevaMision(MisionSO mision)
     {
         //AQUI LANZO LA NOTIFICACION X SI A ALGUIEN LE INTERESA
-        OnNuevaMision.Invoke();
+        //?. significa Invocación segura. Se asegura de que haya suscriptores.
+        OnNuevaMision?.Invoke(mision); // si no es qcon invocacion segura crashea no entiendo
+    }
+
+    public void ActualizarMision(MisionSO mision)
+    {
+        OnActualizarMision?.Invoke(mision); 
+    }
+
+    public void TerminarMision(MisionSO mision)
+    {
+        OnTerminarMision?.Invoke(mision);
     }
 }

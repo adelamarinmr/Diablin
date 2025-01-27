@@ -9,12 +9,15 @@ using UnityEngine;
 public class DialogoSO : ScriptableObject
 {
     [TextArea]
-
     public string[] frases;
 
     public float tiempoEntreLetras;
+
+
     public bool tieneMision;
-    public string textoMision;
+
+    public MisionSO mision;
+    
 
 
 }
