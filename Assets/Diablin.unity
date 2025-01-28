@@ -29489,7 +29489,7 @@ MonoBehaviour:
   distanciaCombate: 2
   danhoCombate: 25
   agent: {fileID: 870539747}
-  anim: {fileID: 0}
+  anim: {fileID: 3449383947923324404}
 --- !u!1 &3474442904074155825
 GameObject:
   m_ObjectHideFlags: 0
@@ -31248,6 +31248,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toggle
       objectReference: {fileID: 0}
+    - target: {fileID: 4427473864897408982, guid: 6a24a44bae412434989308a42111c6d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
       propertyPath: m_Pivot.x
@@ -31266,7 +31271,7 @@ PrefabInstance:
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
@@ -31276,17 +31281,17 @@ PrefabInstance:
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 239.4469
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 33.333332
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
@@ -31326,12 +31331,12 @@ PrefabInstance:
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 119.72345
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -16.666666
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 5260550804109454516, guid: 6a24a44bae412434989308a42111c6d9,
         type: 3}
@@ -33281,8 +33286,8 @@ SceneRoots:
   - {fileID: 101482591}
   - {fileID: 6659077778386101125}
   - {fileID: 1095583862}
-  - {fileID: 4026153988487193582}
   - {fileID: 5374826364773480881}
+  - {fileID: 4026153988487193582}
   - {fileID: 171184289}
   - {fileID: 248436508}
   - {fileID: 547824549}

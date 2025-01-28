@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Event manager")]
 public class EventManagerSO : ScriptableObject
 {
-
+    //LOS EVENTOS SON "FUNCIONES" QUE PODEMOS ACTIVAR PARA LLAMAR A OBJETOS EN ESCENA Y QUE HAGAN ALGO
     public event Action<MisionSO> OnNuevaMision;  //EVENTO
 
     public event Action<MisionSO> OnActualizarMision;

@@ -50,7 +50,8 @@ public class SistemaCombate : MonoBehaviour
 
            else
            {
-                //main.ActivarPatrulla();
+                agent.isStopped = false;
+                main.ActivarPatrulla();
            }
       }
     }

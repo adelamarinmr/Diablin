@@ -51,13 +51,12 @@ public class Player : MonoBehaviour
 
             }
         }
-        else if (ultimoClick.TryGetComponent(out Enemigo enemigo))
+        else if (ultimoClick && ultimoClick.TryGetComponent(out Enemigo enemigo))
         {
 
             
 
         }
-
         else if (ultimoClick && ultimoClick)
         {
 
