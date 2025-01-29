@@ -53,7 +53,6 @@ public class SistemaPatrulla : MonoBehaviour
             agent.SetDestination(destinoActual); //2. se te marca dicho destino
             yield return new WaitUntil( ()=> !agent.pathPending && agent.remainingDistance <= 0.2f); //espera hasta que llegues a ese punto.
 
-            Debug.Log("fsdfff");
             yield return new WaitForSeconds(Random.Range(0.5f,1.5f));
 
 

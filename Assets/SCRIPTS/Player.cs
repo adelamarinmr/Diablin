@@ -51,13 +51,7 @@ public class Player : MonoBehaviour
 
             }
         }
-        else if (ultimoClick && ultimoClick.TryGetComponent(out Enemigo enemigo))
-        {
-
-            
-
-        }
-        else if (ultimoClick && ultimoClick)
+        else if (ultimoClick)
         {
 
             agent.stoppingDistance = 0f;

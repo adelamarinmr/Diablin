@@ -19,9 +19,10 @@ public class SistemaMisiones : MonoBehaviour
         eventManager.OnTerminarMision += CerrarToggle;
     }
 
-    private void ActualizarToggle(MisionSO obj)
+    private void ActualizarToggle(MisionSO mision)
     {
-        throw new System.NotImplementedException();
+        toggleMision[mision.indiceMision].TextoMision.text = mision.ordenInicial;
+        toggleMision[mision.indiceMision].TextoMision.text += "(" + mision.estadoActual + "/" + mision.repeticionesTotales + ")";
     }
 
     private void ActivarToggleMision(MisionSO mision)

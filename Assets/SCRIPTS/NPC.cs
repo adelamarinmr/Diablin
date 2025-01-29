@@ -14,24 +14,51 @@ public class NPC : MonoBehaviour, IInteractuable
 
     [SerializeField] private float tiempoRotacion;
 
-    [SerializeField] private DialogoSO dialogo;
-
     [SerializeField] private Transform cameraPoint;
+
+    
+
+    [SerializeField] private EventManagerSO eventManager;
+
+    [SerializeField] private MisionSO misionAsociada;
+
+    [SerializeField] private DialogoSO dialogo1;
+
+    [SerializeField] private DialogoSO dialogo2;
+
+    private DialogoSO dialogoActual;
 
     // Start is called before the first frame update
 
     private void Awake()
     {
         outline = GetComponent<Outline>();
+        dialogoActual = dialogo1;
+
     }
+
+    private void OnEnable()
+    {
+        eventManager.OnTerminarMision += CambiarDialogo;
+    }
+
+    private void CambiarDialogo(MisionSO misionTerminada)
+    {
+        if (misionTerminada == misionAsociada)
+        {
+            dialogoActual = dialogo2;
+        }
+    }
+
+    
+
+
 
 
     public void Interactuar(Transform interactuador)
     {
 
-        transform.DOLookAt(interactuador.position, tiempoRotacion, AxisConstraint.Y).OnComplete(()=> SistemaDialogo.sistema.IniciarDialogo(dialogo, cameraPoint));
-
-        
+        transform.DOLookAt(interactuador.position, tiempoRotacion, AxisConstraint.Y).OnComplete( ()=> SistemaDialogo.sistema.IniciarDialogo(dialogoActual, cameraPoint));
 
     }
 

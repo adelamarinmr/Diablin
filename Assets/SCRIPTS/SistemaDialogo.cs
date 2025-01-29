@@ -45,6 +45,7 @@ public class SistemaDialogo : MonoBehaviour
 
     public void IniciarDialogo(DialogoSO dialogo, Transform cameraPoint)
     {
+        Debug.Log("ssdddsdss");
         Time.timeScale = 0f; //pausamos el juego
 
         npcCamera.SetPositionAndRotation(cameraPoint.position, cameraPoint.rotation);
