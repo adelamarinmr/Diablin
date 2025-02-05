@@ -412,7 +412,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 97dc6b523a5b7ae49a817e9ee88a4e36, type: 3}
+  m_Texture: {fileID: 2800000, guid: 3026d049018769b4d98ebdf96b43528c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -630,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -101, y: -167}
+  m_AnchoredPosition: {x: -52, y: -121}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1976540113
@@ -653,18 +653,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: "He sucumbido de manera tr\xE1gica e irremediable, v\xEDctima de un vil
+    y miserable enemigo que, con artero sigilo, os\xF3 irrumpir en mi morada"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3e9412ea37744cf4aa508e388d2273d5, type: 2}
-  m_sharedMaterial: {fileID: -6965082616984649458, guid: 3e9412ea37744cf4aa508e388d2273d5,
+  m_fontAsset: {fileID: 11400000, guid: 01a94726fdd70b142b8d3c635679301c, type: 2}
+  m_sharedMaterial: {fileID: -5892874829869634917, guid: 01a94726fdd70b142b8d3c635679301c,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190154
-  m_fontColor: {r: 0.28930807, g: 0, b: 0, a: 1}
+    rgba: 4284045685
+  m_fontColor: {r: 0.45911938, g: 0.34794894, b: 0.34794894, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -681,8 +682,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 39.2
+  m_fontSizeBase: 39.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -717,7 +718,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -234.42854, w: 0}
+  m_margin: {x: -171.941, y: 0, z: -234.42854, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
