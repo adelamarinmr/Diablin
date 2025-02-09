@@ -8,7 +8,7 @@ using UnityEngine.AI;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour,IDanhable
 {
     private NavMeshAgent agent;
     private Camera cam;
@@ -23,8 +23,17 @@ public class Player : MonoBehaviour
     [SerializeField] private float vida;
     [SerializeField] private Image imgVida;
 
+    //ESTE ES EL DANHO DEL JUGADOR
+    [SerializeField] private int danhoAtaque;
+
     private PlayerAnimations playerAnimations;
 
+
+    //NUEVAS COSAS
+    private Transform lastHit;
+    private Transform currentTarget;
+    [SerializeField] private PlayerVisualSystem visualSystem;
+    [SerializeField] private float interactionDistance = 2f;
     public PlayerAnimations PlayerAnimations { get => playerAnimations; set => playerAnimations = value; }
 
     // Start is called before the first frame update
@@ -38,32 +47,54 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.timeScale==1)
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            Movimiento();
-        }
-        
-
-        //si existe un npc al cual clické
-        if (ultimoClick && ultimoClick.TryGetComponent(out IInteractuable interactuable))
-        {
-            agent.stoppingDistance = distanciaInteraccion;
-
-            //Comprobar si he llegado al npc
-            if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
-            { 
-                
-                LanzarInteraccion(interactuable); 
-
+            if (Input.GetMouseButtonDown(0) && Time.timeScale != 0) //Porque si no, "recuerda" hits hechos en pausa.
+            {
+                agent.SetDestination(hit.point);
+                lastHit = hit.transform;
             }
         }
-        else if (ultimoClick)
+
+        if (lastHit)
         {
+            
+            visualSystem.StopAttacking();
 
-            agent.stoppingDistance = 0f;
-
+            if (lastHit.TryGetComponent(out IInteractuable interactable))
+            {
+                agent.stoppingDistance = interactionDistance;
+                if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+                {
+                    interactable.Interactuar(transform);
+                    lastHit = null; //Para que no siga interactuando
+                }
+            }
+            else if (lastHit.TryGetComponent(out IDanhable _))
+            {
+                currentTarget = lastHit;
+                agent.stoppingDistance = attackingDistance;
+                if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+                {
+                    FaceTarget();
+                    visualSystem.StartAttacking();
+                }
+            }
+            else
+            {
+                agent.stoppingDistance = 0f;
+            }
         }
-        
+
+    }
+
+    private void FaceTarget()
+    {
+        Vector3 directionToTarget = (currentTarget.transform.position - transform.position).normalized;
+        directionToTarget.y = 0f;
+        Quaternion rotationToTarget = Quaternion.LookRotation(directionToTarget);
+        transform.rotation = rotationToTarget;
     }
 
     private void LanzarInteraccion(IInteractuable interactuable)
@@ -93,8 +124,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void HacerDanho(float danhoCombate)
+    public void Atacar()
     {
+        currentTarget.GetComponent<IDanhable>().RecibirDanho(danhoAtaque);
         Debug.Log("Auch!");
     }
 
@@ -102,6 +134,25 @@ public class Player : MonoBehaviour
     {
         imgVida.fillAmount = vida/100;
     }
+
+    public void RecibirDanho(int danho)
+    {
+        vida-=danho;
+        if(vida<=0)
+        {
+            Muerte();
+            vida = 0;
+        }
+        ActualizarVida();
+    }
+
+    public void Muerte()
+    {
+        Destroy(this);
+        visualSystem.EjecutarAnimacionMuerte();
+        Debug.Log("Muerte Player");
+    }
+    
 
 }
 
