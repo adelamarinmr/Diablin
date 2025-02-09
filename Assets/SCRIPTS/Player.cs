@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Player : MonoBehaviour
 {
@@ -18,6 +20,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float tiempoRotacion;
     [SerializeField] private Animator anim;
 
+    [SerializeField] private float vida;
+    [SerializeField] private Image imgVida;
+
     private PlayerAnimations playerAnimations;
 
     public PlayerAnimations PlayerAnimations { get => playerAnimations; set => playerAnimations = value; }
@@ -27,6 +32,7 @@ public class Player : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         cam = Camera.main;
+        ActualizarVida();
     }
 
     // Update is called once per frame
@@ -91,5 +97,11 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Auch!");
     }
+
+    public void ActualizarVida()
+    {
+        imgVida.fillAmount = vida/100;
+    }
+
 }
 
