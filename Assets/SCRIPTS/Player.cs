@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -34,6 +35,8 @@ public class Player : MonoBehaviour,IDanhable
     private Transform currentTarget;
     [SerializeField] private PlayerVisualSystem visualSystem;
     [SerializeField] private float interactionDistance = 2f;
+
+    private bool vivo=true;
     public PlayerAnimations PlayerAnimations { get => playerAnimations; set => playerAnimations = value; }
 
     // Start is called before the first frame update
@@ -47,43 +50,46 @@ public class Player : MonoBehaviour,IDanhable
     // Update is called once per frame
     void Update()
     {
-        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        if(vivo)
         {
-            if (Input.GetMouseButtonDown(0) && Time.timeScale != 0) //Porque si no, "recuerda" hits hechos en pausa.
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                agent.SetDestination(hit.point);
-                lastHit = hit.transform;
-            }
-        }
-
-        if (lastHit)
-        {
-            
-            visualSystem.StopAttacking();
-
-            if (lastHit.TryGetComponent(out IInteractuable interactable))
-            {
-                agent.stoppingDistance = interactionDistance;
-                if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+                if (Input.GetMouseButtonDown(0) && Time.timeScale != 0) //Porque si no, "recuerda" hits hechos en pausa.
                 {
-                    interactable.Interactuar(transform);
-                    lastHit = null; //Para que no siga interactuando
+                    agent.SetDestination(hit.point);
+                    lastHit = hit.transform;
                 }
             }
-            else if (lastHit.TryGetComponent(out IDanhable _))
+
+            if (lastHit)
             {
-                currentTarget = lastHit;
-                agent.stoppingDistance = attackingDistance;
-                if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+
+                visualSystem.StopAttacking();
+
+                if (lastHit.TryGetComponent(out IInteractuable interactable))
                 {
-                    FaceTarget();
-                    visualSystem.StartAttacking();
+                    agent.stoppingDistance = interactionDistance;
+                    if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+                    {
+                        interactable.Interactuar(transform);
+                        lastHit = null; //Para que no siga interactuando
+                    }
                 }
-            }
-            else
-            {
-                agent.stoppingDistance = 0f;
+                else if (lastHit.TryGetComponent(out IDanhable _))
+                {
+                    currentTarget = lastHit;
+                    agent.stoppingDistance = attackingDistance;
+                    if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+                    {
+                        FaceTarget();
+                        visualSystem.StartAttacking();
+                    }
+                }
+                else
+                {
+                    agent.stoppingDistance = 0f;
+                }
             }
         }
 
@@ -148,9 +154,17 @@ public class Player : MonoBehaviour,IDanhable
 
     public void Muerte()
     {
-        Destroy(this);
+        vivo = !vivo;
+        //Destroy(this);
         visualSystem.EjecutarAnimacionMuerte();
         Debug.Log("Muerte Player");
+        Invoke("EscenaMuerte", 2);
+        
+    }
+
+    private void EscenaMuerte()
+    {
+        SceneManager.LoadScene(4);
     }
     
 
