@@ -45,10 +45,8 @@ public class SistemaCombate : MonoBehaviour
            if (agent.remainingDistance <= distanciaCombate) 
            {
                 agent.isStopped = true;
-
-                //ESTO SE DEBERIA DE HACER POR EVENTO DE ANIMACION
-                //anim.SetBool("attacking", true);
-                Atacar();
+                anim.SetBool("attacking", true);
+                //Atacar();
                 Debug.Log("ATK Enem");
            }
 
@@ -63,7 +61,10 @@ public class SistemaCombate : MonoBehaviour
     #region Ejecutsods por eventos de anim
     private void Atacar()
     {
-        main.MainTarget.GetComponent<Player>().RecibirDanho(danhoCombate);
+        if(main.Vida!=0)
+        {
+            main.MainTarget.GetComponent<Player>().RecibirDanho(danhoCombate);
+        }
     }
     private void FinAnimacionAtaque()
     {

@@ -12,13 +12,22 @@ public class Enemigo : MonoBehaviour,IDanhable
 
     private Transform mainTarget;
 
+    [SerializeField] private float vida = 100;
+    [SerializeField] private Image imgVida;
+
+    [Header("Misiones")]
+    [SerializeField]
+    private EventManagerSO eventManager;
+
+    [SerializeField]
+    private MisionSO misionAsociada;
+
     // acceder en otros scripts sin estar en public (encapsular)
     public SistemaCombate Combate { get => combate; set => combate = value; }
     public SistemaPatrulla Patrulla { get => patrulla; set => patrulla = value; }
     public Transform MainTarget { get => mainTarget; }
+    public float Vida { get => vida; }
 
-    [SerializeField] private int vida = 100;
-    [SerializeField] private Image imgVida;
 
     public void Start()
     {
@@ -54,6 +63,17 @@ public class Enemigo : MonoBehaviour,IDanhable
 
     public void Muerte()
     {
-
+        misionAsociada.estadoActual++; //a un paso mas de completar la mision
+        if (misionAsociada.estadoActual < misionAsociada.repeticionesTotales)
+        {
+            eventManager.ActualizarMision(misionAsociada);
+        }
+        else
+        {
+            eventManager.TerminarMision(misionAsociada);
+        }
+        Destroy(this.gameObject,1.4f);
+        //FALTA ANIM DE MUERTE MORICION
+        
     }
 }

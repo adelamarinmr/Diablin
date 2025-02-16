@@ -76,7 +76,7 @@ public class Player : MonoBehaviour,IDanhable
                         lastHit = null; //Para que no siga interactuando
                     }
                 }
-                else if (lastHit.TryGetComponent(out IDanhable _))
+                else if (lastHit.TryGetComponent(out IDanhable _)&&lastHit.gameObject.tag!="Player")
                 {
                     currentTarget = lastHit;
                     agent.stoppingDistance = attackingDistance;
@@ -133,7 +133,7 @@ public class Player : MonoBehaviour,IDanhable
     public void Atacar()
     {
         currentTarget.GetComponent<IDanhable>().RecibirDanho(danhoAtaque);
-        Debug.Log("Auch!");
+        Debug.Log("Golpeo");
     }
 
     public void ActualizarVida()

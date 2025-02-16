@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour, IInteractuable
 {
@@ -47,12 +48,17 @@ public class NPC : MonoBehaviour, IInteractuable
         if (misionTerminada == misionAsociada)
         {
             dialogoActual = dialogo2;
+            if(misionAsociada.indiceMision==2)
+            {
+                Invoke("Victoria", 5);
+            }
         }
     }
 
-    
-
-
+    private void Victoria()
+    {
+        SceneManager.LoadScene(3);
+    }
 
 
     public void Interactuar(Transform interactuador)
